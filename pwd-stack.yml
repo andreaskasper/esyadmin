@@ -5,6 +5,10 @@ services:
     image: andreaskasper/esyadmin
     ports:
     - 8080:8080
+    environment:
+      - ESY_DEFAULT_SERVER=elasticsearch
+    links:
+      - elasticsearch:elasticsearch
   elasticsearch:
     image: elasticsearch:5
     ports:

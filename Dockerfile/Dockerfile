@@ -1,8 +1,9 @@
 FROM antage/apache2-php7
 
 RUN apt-get update \
-	&& apt-get install -y git \
+	&& apt-get install -y git php-curl \
 	&& git clone https://github.com/andreaskasper/esyadmin.git /var/www/html \
+	&& phpenmod curl \
 	&& apt-get clean
 
 ENV APACHE_DOCUMENT_ROOT	/var/www/html/src
