@@ -4,6 +4,7 @@ RUN apt-get update \
 	&& apt-get install -y git php-curl php-json \
 	&& git clone https://github.com/andreaskasper/esyadmin.git /var/www/html \
 	&& phpenmod curl \
+	&& phpenmod json \
 	&& apt-get clean
 
 ENV APACHE_DOCUMENT_ROOT	/var/www/html/src
