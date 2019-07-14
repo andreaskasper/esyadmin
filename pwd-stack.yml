@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  web:
+    image: andreaskasper/esyadmin
+    ports:
+    - 8080:8080
+  elasticsearch:
+    image: elasticsearch:5
+    ports:
+    - 9200:9200
+    - 9300:9300
+    environment:
+      - discovery.type=single-node

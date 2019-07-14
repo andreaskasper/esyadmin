@@ -11,6 +11,7 @@ body { font-family: sans-serif; font-size: 13.12px; width: 100%; display: flex; 
 
 #navipanellinks { text-align:center; }
 #navipanellinks a { color: #666; text-decoration: none; }
+#navipanellinks a:hover { color: #007bff; text-decoration: none; }
 
 .topnav_container { background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcdc));
     background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);

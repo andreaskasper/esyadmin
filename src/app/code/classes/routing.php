@@ -6,6 +6,10 @@ class routing {
         switch (self::pure_url()) {
             case "/":
                 PageEngine::html("page_index"); exit;
+            case "/ind":
+                PageEngine::html("page_ind"); exit;
+            case "/indexes":
+                PageEngine::html("page_indexes"); exit;
             case "/terminal":
             case "/console":
                 PageEngine::html("page_console"); exit;
