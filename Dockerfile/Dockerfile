@@ -8,6 +8,7 @@ RUN apt-get update \
 ENV APACHE_DOCUMENT_ROOT	/var/www/html/src
 ENV PHP_SMTP				localhost
 ENV PHP_SMTP_FROM			localhost
+ENV APACHE_ALLOW_OVERRIDE   All
 
 EXPOSE 8080
 
