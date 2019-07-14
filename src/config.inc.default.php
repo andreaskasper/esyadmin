@@ -10,4 +10,4 @@ $cfg['Servers'][$i]['host'] = 'localhost';
 $cfg['Servers'][$i]['port'] = 9200;
 
 
-if (!empty(get_env("ESY_DEFAULT_SERVER"))) $cfg['Servers'][$i]['host'] = getenv("ESY_DEFAULT_SERVER");
+if (!empty(getenv("ESY_DEFAULT_SERVER"))) $cfg['Servers'][$i]['host'] = getenv("ESY_DEFAULT_SERVER");
