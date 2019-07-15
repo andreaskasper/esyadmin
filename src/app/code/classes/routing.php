@@ -10,6 +10,8 @@ class routing {
                 PageEngine::html("page_ind"); exit;
             case "/indexes":
                 PageEngine::html("page_indexes"); exit;
+            case "/docedit":
+                PageEngine::html("page_docedit"); exit;
             case "/terminal":
             case "/console":
                 PageEngine::html("page_console"); exit;

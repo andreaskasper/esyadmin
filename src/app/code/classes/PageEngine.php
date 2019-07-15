@@ -8,7 +8,6 @@ class PageEngine {
 			include($file); 
 			return;
         }
-        echo("def");
 		if (defined("debug")) trigger_error("Seite ".$key." kann nicht gefunden werden.", E_USER_WARNING);
     }
 

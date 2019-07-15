@@ -1,5 +1,6 @@
 @import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);
 @import url(https://library.goo1.de/fontawesome/5/css/all.min.css);
+@import url(https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css);
 
 html { font-family: sans-serif; font-size: 13.12px; width: 100%; }
 
